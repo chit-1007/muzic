@@ -1,0 +1,30 @@
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.rounded{
+    border-radius: 13px;
+}
+.m1{
+    margin: 5px;
+}
+.p1{
+    padding: 15px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.grid{
+    display: grid;
+}
+.invert{
+    filter: invert(1);
+}
