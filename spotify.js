@@ -8,7 +8,7 @@ function convertToMinuteSeconds(seconds) {
     return `${formattedMinutes}:${formattedSeconds}`;
 }
 async function getsongs(){
-    let a = await fetch("http://127.0.0.1:3000/clone/songs/")
+    let a = await fetch("http://127.0.0.1:3000/songs/index.html")
     let response = await a.text();
     let div = document.createElement("div")
     div.innerHTML = response;
@@ -23,7 +23,7 @@ async function getsongs(){
     return songs;
 }
 function playMusic(track) {
-    currentsong.src = "/clone/songs/"+track;
+    currentsong.src = "/songs/"+track;
     currentsong.play();
     play.src = "pause.svg"
     document.querySelector(".songinfo").innerHTML = track;
