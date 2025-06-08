@@ -21,10 +21,12 @@
                 </div>
                 <div class="home bg-grey rounded p1 m1">
                     <div class="logo"><img class="invert" src="logo.svg" alt=""></div>
-                    <ul>
-                        <li><img class="invert" src="home.svg" alt="home">Home</li>
-                        <li><img class="invert" src="search.svg" alt="search">Search</li>
-                    </ul>
+                    <div>
+                        <ul>
+                            <li><img class="invert" src="home.svg" alt="home">Home</li>
+                            <li><img class="invert" src="search.svg" alt="search">Search</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="heading flex">
                     <img class="invert" src="library.svg" alt="playlist">
@@ -33,7 +35,7 @@
                 <div class="overflowscroll flex">
                     <div class="wholescrollbar flex">
                         <section class="sec flex">
-                            <div class="containing2spans flex">
+                            <div class="spans2 flex">
                                 <span class="span1">Create your first playlist</span>
                                 <span class="span2">It's easy, we'll help you</span>
                             </div>
@@ -42,11 +44,11 @@
                             </div>
                         </section>
                         <section class="sec flex">
-                            <div class="containing2spans flex">
+                            <div class="spans2 flex">
                                 <span class="span1">Lets find some podcast s to follow</span>
                                 <span class="span2">We'll keep you updated of new episodes</span>
                             </div>
-                            <div class="button">
+                            <div class="button flex">
                                 <button>Browse podcasts</button>
                             </div>
                         </section>
@@ -58,7 +60,7 @@
                     </ul>
                 </div>
                 <div class="footer">
-                    <div class="containinganchortags flex">
+                    <div class="anchortags flex">
                         <div><a href="https://www.spotify.com/in-en/legal/end-user-agreement/"><span>Legal</span></a></div>
                         <div><a href="https://www.spotify.com/in-en/safetyandprivacy"><span>Safety and Privacy center</span></a></div>
                         <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a></div>
@@ -69,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <div class="play invert bg-grey">
+        <div class="play invert">
             <div class="songinfo" style="color: black;"></div>
             <div class="playimages">
                 <img id="prev" src="prevsong.svg" alt="">
@@ -92,53 +94,65 @@
                     <div>
                         <h2><a href="https://open.spotify.com/section/0JQ5DAnM3wGh0gz1MXnu3C"><span>Popular artists</span></a></h2>
                     </div>
-                    <div class="flex align-center"><a href="https://open.spotify.com/section/0JQ5DAnM3wGh0gz1MXnu3C"><span>Show all</span></a>
+                    <div>
+                        <a href="https://open.spotify.com/section/0JQ5DAnM3wGh0gz1MXnu3C"><span>Show all</span></a>
                     </div>
                 </div>
-                <div class="cardContainer flex">
-                    <div class="card flex">
-                        <div class="artistImg flex relative">
-                            <div style="display: flex; justify-content: center;"><img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="pritam"></div>
-                            <div class="shit absolute flex">
-                                <div>
-                                    <button class="playbutton relative">
-                                        <span class="flex" style="background-color: #3be477; border-radius: 50%; padding: 10px;">
-                                            <img src="play.svg" alt="">
-                                        </span>
-                                    </button>
-                                </div>
-                            </div>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <div class="artistImg">
+                            <div><img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="pritam"></div>
                         </div>
                         <div class="artistName flex">
                             <a href="https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU">Pritam</a>
                             <div>Artist</div>
                         </div>
                     </div>
-                    <div class="card flex">
-                        <div class="artistImg flex justify-center">
-                            <div style="display: flex; justify-content: center;"><img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="Rahman"></div>
+                    <div class="grid-item">
+                        <div class="artistImg">
+                            <div><img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="Rahman"></div>
                         </div>
                         <div class="artistName flex">
                             <a href="https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU"><span>A.R.Rahman</span></a>
                             <div>Artist</div>
                         </div>
                     </div>
-                    <div class="card flex">
-                        <div class="artistImg flex justify-center">
-                            <div style="display: flex; justify-content: center;"><img src="https://i.scdn.co/image/ab676161000051749107d8873f80a26b36f2418e" alt="Sachin-Jigar"></div>
+                    <div class="grid-item">
+                        <div class="artistImg">
+                            <div><img src="https://i.scdn.co/image/ab676161000051749107d8873f80a26b36f2418e" alt="Sachin-Jigar"></div>
                         </div>
                         <div class="artistName flex">
                             <a href="https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU"><span>Sachin-Jigar</span></a>
                             <div>Artist</div>
                         </div>
                     </div>            
-                    <div class="card flex">
-                        <div class="artistImg flex justify-center">
-                            <div style="display: flex; justify-content: center;"><img src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84" alt="Atif">
+                    <div class="grid-item">
+                        <div class="artistImg">
+                            <div><img src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84" alt="Atif">
                             </div>
                         </div>
                         <div class="artistName flex">
                             <a href="https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU"><span>Atif Aslam</span></a>
+                            <div>Artist</div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="artistImg">
+                            <div><img src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="Arijit">
+                            </div>
+                        </div>
+                        <div class="artistName flex">
+                            <a href="https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU"><span>Arijit Singh</span></a>
+                            <div>Artist</div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="artistImg ">
+                            <div><img src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf" alt="Vishal-Shekhar">
+                            </div>
+                        </div>
+                        <div class="artistName flex">
+                            <a href="https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU"><span>Vishal-Shekhar</span></a>
                             <div>Artist</div>
                         </div>
                     </div>

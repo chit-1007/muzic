@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Aaj Ki Raat",
+        "artist": "Madhubanti Bagchi",
+        "file": "songs/Aaj_Ki_Raat.mp3"
+    },
+    {
+        "id": 2,
+        "title": "Perfect",
+        "artist": "ED sheeran",
+        "file": "songs/Perfect.mp3"
+    },
+    {
+        "id": 3,
+        "title": "Tere Liye - Prince",
+        "artist": "Atif Aslam",
+        "file": "songs/Tere_Liye.mp3"
+    },
+    {
+        "id": 4,
+        "title": "Mann Mera",
+        "artist": "Gajendra Verma",
+        "file": "songs/Mann_Mera.mp3"
+    },
+    {
+        "id": 5,
+        "title": "Aa Chal Ke Tujhe",
+        "artist": "Kishore Kumar",
+        "file": "songs/Aa_Chal_Ke_Tujhe.mp3"
+    },
+    {
+        "id": 6,
+        "title": "Main Zindagi Ka Saath",
+        "artist": "Mohammad Rafi",
+        "file": "songs/Main_Zindagi_Ka_Saath.mp3"
+    }
+]
