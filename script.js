@@ -13,7 +13,7 @@ function convertToMinuteSeconds(seconds) {
 
 async function getSongs() {
     try {
-        const response = await fetch("https://chit-1007.github.io/songs.json");
+        const response = await fetch("https://chit-1007.github.io/muzic/songs.json");
         console.log(response)
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
