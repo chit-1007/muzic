@@ -34,7 +34,7 @@ async function getSongs() {
 }
 
 function playMusic(track) {
-    currentsong.src = "https://chit-1007.github.io/songs/" + track;
+    currentsong.src = "https://chit-1007.github.io/muzic/songs/" + track;
     currentsong.play();
     play.src = "pause.svg"
     document.querySelector(".songinfo").innerHTML = track;
