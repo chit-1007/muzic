@@ -13,7 +13,7 @@ function convertToMinuteSeconds(seconds) {
 
 async function getSongs() {
     try {
-        const response = await fetch("songs.json");
+        const response = await fetch("https://chit-1007.github.io/songs.json");
         console.log(response)
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -34,7 +34,7 @@ async function getSongs() {
 }
 
 function playMusic(track) {
-    currentsong.src = "/songs/" + track;
+    currentsong.src = "https://chit-1007.github.io/songs/" + track;
     currentsong.play();
     play.src = "pause.svg"
     document.querySelector(".songinfo").innerHTML = track;
